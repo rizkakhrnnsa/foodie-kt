@@ -13,4 +13,12 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="TransparentThemeActionBar" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:background">@null</item>
+        <item name="background">@null</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="actionBarStyle">@style/TransparentThemeActionBar</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
 </resources>

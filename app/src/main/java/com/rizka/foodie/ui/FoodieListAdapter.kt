@@ -6,9 +6,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 import com.rizka.foodie.data.Foodie
 import com.rizka.foodie.databinding.ItemFoodsBinding
+import com.rizka.foodie.utils.Utils.loadImage
 
 class FoodieListAdapter: ListAdapter<Foodie, FoodieListAdapter.ViewHolder>(foodieCallback) {
 
@@ -23,13 +23,9 @@ class FoodieListAdapter: ListAdapter<Foodie, FoodieListAdapter.ViewHolder>(foodi
     inner class ViewHolder(private val binding: ItemFoodsBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun onBind(data: Foodie) = with(binding){
-            Glide.with(itemView.context)
-                .load(data.imageFoodie)
-                .into(imgFoodie)
-
+            imgFoodie.loadImage(data.imageFoodie)
             tvFoodieName.text = data.nameFoodie
             tvFoodieDescription.text = data.descriptionFoodie
-            tvFoodieCountryOrigin.text = data.countryOriginFoodie
 
             itemFoodie.setOnClickListener {
                 val intent = Intent(it.context, DetailActivity::class.java)

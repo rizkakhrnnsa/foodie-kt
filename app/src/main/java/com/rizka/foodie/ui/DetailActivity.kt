@@ -1,13 +1,11 @@
 package com.rizka.foodie.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
-import com.bumptech.glide.Glide
-import com.rizka.foodie.R
+import androidx.appcompat.app.AppCompatActivity
 import com.rizka.foodie.data.Foodie
 import com.rizka.foodie.databinding.ActivityDetailBinding
-import java.lang.StringBuilder
+import com.rizka.foodie.utils.Utils.loadImage
 
 class DetailActivity : AppCompatActivity() {
 
@@ -39,13 +37,9 @@ class DetailActivity : AppCompatActivity() {
     }
 
     private fun showDetail() = with(binding) {
-        Glide.with(this@DetailActivity)
-            .load(foodie.imageFoodie)
-            .error(R.color.purple_700)
-            .placeholder(R.color.purple_700)
-            .into(imgFoodie)
-
-        tvFoodieName.text = StringBuilder(foodie.nameFoodie).append(", ").append(foodie.countryOriginFoodie)
+        imgFoodieBanner.loadImage(foodie.imageFoodieBanner)
+        imgFoodie.loadImage(foodie.imageFoodie)
+        tvFoodieName.text = foodie.nameFoodie
         tvFoodieDescription.text = foodie.descriptionFoodie
     }
 
