@@ -7,25 +7,26 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.rizka.foodie.data.Foodie
-import com.rizka.foodie.databinding.ItemFoodsBinding
+import com.rizka.foodie.databinding.ItemFoodieBinding
 import com.rizka.foodie.utils.Utils.loadImage
 
 class FoodieListAdapter: ListAdapter<Foodie, FoodieListAdapter.ViewHolder>(foodieCallback) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        return ViewHolder(ItemFoodsBinding.inflate(LayoutInflater.from(parent.context), parent, false))
+        return ViewHolder(ItemFoodieBinding.inflate(LayoutInflater.from(parent.context), parent, false))
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.onBind(getItem(position))
     }
 
-    inner class ViewHolder(private val binding: ItemFoodsBinding) :
+    inner class ViewHolder(private val binding: ItemFoodieBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun onBind(data: Foodie) = with(binding){
             imgFoodie.loadImage(data.imageFoodie)
             tvFoodieName.text = data.nameFoodie
             tvFoodieDescription.text = data.descriptionFoodie
+            tvFoodieIngredients.text = data.ingredientsFoodie
 
             itemFoodie.setOnClickListener {
                 val intent = Intent(it.context, DetailActivity::class.java)

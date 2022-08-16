@@ -8,5 +8,6 @@ data class Foodie(
     var imageFoodieBanner: String = "",
     var imageFoodie: String = "",
     var nameFoodie: String = "",
-    var descriptionFoodie: String = ""
+    var descriptionFoodie: String = "",
+    var ingredientsFoodie: String = ""
 ): Parcelable

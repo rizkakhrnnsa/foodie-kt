@@ -69,6 +69,179 @@ object FoodieData {
         "Hummus menjadi salah satu makanan internasional dari Arab Saudi. Makanan ini memiliki bentuk seperti selai gurih yang terbuat khusus dari kacang khas tanah arab. Hummus ini sendiri memiliki teksturnya yang lembut dan cocok dinikmati sebagai pelengkap dengan cita rasa yang enak dan gurih. Makanan ini akan disajikan dengan campuran garam, bawang putih, minyak zaitun, sari perasan limau dan tahini atau wijen giling."
     )
 
+    private val foodieIngredients = arrayOf(
+        "• 1 kg daging sapi bagian paha\n" +
+                "• 2500 ml santan\n" +
+                "• 3 batang serai digeprek\n" +
+                "• 8 lembar daun jeruk\n" +
+                "• 5 lembar daun salam\n\n" +
+                "Bumbu halus:\n" +
+                "• 250 gr cabai keriting merah dan rawit\n" +
+                "• 250 gr bawang merah\n" +
+                "• 8 siung bawang putih\n" +
+                "• 1 sdt jintan\n" +
+                "• 1 sdt adas\n" +
+                "• 1 butir pala\n" +
+                "• 5 butir cengkeh\n" +
+                "• 3 butir kemiri\n" +
+                "• 1 sdt merica\n" +
+                "• 4 sdm ketumbar\n" +
+                "• Seruas jahe\n" +
+                "• Seruas lengkuas\n" +
+                "• Seruas kunyit\n" +
+                "• Garam dan gula secukupnya",
+
+        "• Sawi putih, ukuran besar • 1 buah\n" +
+                "• Garam - 3 sdm\n" +
+                "• Wortel, potong korek api - 1 buah\n" +
+                "• Daun bawang, iris panjang - 3 tangkai\n" +
+                "• Wijen putih, untuk taburan - secukupnya",
+
+        "Tortilla:\n" +
+                "• Tepung terigu protein sedang - 150 gram\n" +
+                "• Garam - 1/2 sdt\n" +
+                "• Baking powder - 1/2 sdt\n" +
+                "• Minyak zaitun - 2 sdm\n" +
+                "• Susu cair, hangatkan - 100 ml\n\n" +
+                "Isian Daging:\n" +
+                "• Daging has dalam, iris setipis mungkin melawan serat - 300 gram\n" +
+                "• Bawang bombai, cincang halus kemudian tumbuk asal saja - 1/2 butir\n" +
+                "• Bawang putih, cincang halus kemudian tumbuk asal saja - 2 siung\n" +
+                "• Kunyit bubuk - 1/2 sdt\n" +
+                "• Garam - 1/2 sdt\n" +
+                "• Gula pasir - 1 sdt\n" +
+                "• Air jeruk lemon - 1 sdm\n" +
+                "• Minyak zaitun - 2 sdm\n" +
+                "• Bubuk kari - sejumput\n\n" +
+                "Pelengkap:\n" +
+                "• Selada, iris - secukupnya\n" +
+                "• Tomat, iris tipis - secukupnya\n" +
+                "• Timun, iris tipis - secukupnya\n" +
+                "• Bawang bombai, iris panjang dan tumis hingga harum - secukupnya\n" +
+                "• Saus sambal - secukupnya\n" +
+                "• Saus tomat - secukupnya\n" +
+                "• Mayonaise - secukupnya",
+
+        "• Tepung terigu protein tinggi - 300 gram\n" +
+                "• Ragi instan - 1 sdt\n" +
+                "• Garam - 1/2 sdt\n" +
+                "• Gula pasir - 50 gram\n" +
+                "• Mentega - 50 gram\n" +
+                "• Air dingin - 150 gram\n\n" +
+                "Pelapis:\n" +
+                "• Mentega - 100 gram\n\n" +
+                "Olesan (Campur Rata):\n" +
+                "• Kuning telur - 1 butir\n" +
+                "• Susu cair tawar - 1 sdm",
+
+        "• ¼ cup olive oil\n" +
+                "• ¼ cup distilled white vinegar\n" +
+                "• 1/3 cup orange juice\n" +
+                "• 1/3 cup lime juice\n" +
+                "• 1/3 cup molasses\n" +
+                "• 4 sendok makan soy sauce\n" +
+                "• 1 genggam daun cilantro, cincang\n" +
+                "• 3 buah bawang putih, cincang\n" +
+                "• 3 buah daun bawang, cincang\n" +
+                "• Cabai cincang, sesuai selera (cabe Habanero, 6 buah)\n" +
+                "• 2 buah bay leaves\n" +
+                "• 1 sendok teh cinnamon bubuk\n" +
+                "• 1 sendok makan sage powder\n" +
+                "• ½ sendok makan thyme kering\n" +
+                "• ½ sendok makan all-spice powder\n" +
+                "• 1 sendok teh merica hitam bubuk\n" +
+                "• ¼ sendok teh pala bubuk\n" +
+                "• 5 buah paha atas ayam, kulit & lemak dibuang (secara dalam program diet), tusuk-tusuk permukaannya dengan garpu\n" +
+                "• Garam secukupnya",
+
+        "• Kulit lasagna, siap pakai (ready to bake) - 12 lembar\n" +
+                "• Keju mozarella - secukupnya\n" +
+                "• Parsley - secukupnya\n\n" +
+                "Saus Daging:\n" +
+                "• Daging sapi cincang - 150 gram\n" +
+                "• Jamur merang, cincang kasar - 50 gram\n" +
+                "• Bawang putih, cincang halus - 1 siung\n" +
+                "• Bawang bombay, cincang halus - 1/2 buah\n" +
+                "• Tomat merah, kupas kulit lalu cincang halus - 2 buah\n" +
+                "• Saos tomat - 7 sdm\n" +
+                "• Air matang - 50 ml\n" +
+                "• Gula pasir - 1 sdm\n" +
+                "• Garam - 1 sdt\n" +
+                "• Merica bubuk - 1 sdt\n" +
+                "• Oregano kering - 1 sdt\n" +
+                "• Basil kering - 1/2 sdt\n" +
+                "• Minyak untuk menumis - secukupnya\n\n" +
+                "Saus Keju:\n" +
+                "• Susu UHT cair - 250 ml\n" +
+                "• Keju cheddar parut - 75 gram\n" +
+                "• Mentega - 2 sdm\n" +
+                "• Tepung terigu serbaguna - 2 sdm\n" +
+                "• Merica bubuk - 1/4 sdt",
+
+        "• Daging cincang - 300 gram\n" +
+                "• Garam - 1 sdt\n" +
+                "• Merica bubuk - 1/2 sdt\n" +
+                "• Bawang bombay, cincang halus - 50 gram\n" +
+                "• Saus worcestershire - 1 sdt\n" +
+                "• Butter atau margarin - 2 sdm\n\n" +
+                "Pelengkap:\n" +
+                "• Roti burger - secukupnya\n" +
+                "• Selada - secukupnya\n" +
+                "• Irisan tomat - secukupnya\n" +
+                "• Bawang bombay - secukupnya\n" +
+                "• Saus mayonaise - secukupnya\n" +
+                "• Saus sambal - secukupnya",
+
+        "• Ayam, potong jadi 12, bersihkan - 1 ekor\n" +
+                "• Kentang, potong jadi 4 bagian - 4 buah\n" +
+                "• Daun kari - 2 batang\n" +
+                "• Santan kental - 300 ml\n" +
+                "• Air - 200 ml\n" +
+                "• Kapulaga - 3 butir\n" +
+                "• Bunga lawang - 1 kuntum\n" +
+                "• Cengkeh - 2 buah\n" +
+                "• Kayu manis - 1 batang\n" +
+                "• Bubuk kari - 1 sdt\n" +
+                "• Garam - secukupnya\n" +
+                "• Kaldu bubuk sesuai selera - secukupnya\n" +
+                "• Minyak goreng - 3 sdm\n\n" +
+                "Bumbu Halus:\n" +
+                "• Bawang merah - 10 butir\n" +
+                "• Bawang putih - 2 siung\n" +
+                "• Cabai merah - 6 buah\n" +
+                "• Jahe - 1 ruas jari\n" +
+                "• Kunyit bakar - 2 ruas jari\n" +
+                "• Ketumbar, sangrai - 1 sdt\n" +
+                "• Jinten, sangrai - 1 sdt\n" +
+                "• Kemiri, sangrai - 3 butir",
+
+        "• 500 gr paha ayam fillet\n" +
+                "• 150 gram udang kupas\n" +
+                "• 3 siung bawang putih\n" +
+                "• 4 sdm tepung tapioka\n" +
+                "• 2 batang daun bawang iris tipis\n" +
+                "• 1 butir telur\n" +
+                "• 2 sdm minyak wijen\n" +
+                "• 1 sdm saus tiram\n" +
+                "• 1 sdt garam\n" +
+                "• 1 sdt gula\n" +
+                "• 1 sdt lada bubuk\n" +
+                "• 1 sdt kaldu jamur\n" +
+                "• Kulit pangsit secukupnya\n\n" +
+                "Bahan olesan:\n" +
+                "• 1 sdm minyak goreng\n" +
+                "• 1 sdm minyak wijen\n" +
+                "• 1 sdm air",
+
+        "• 250 g kacang garbanzo/chickpeas, rendam semalaman\n" +
+                "• 1 liter air\n" +
+                "• ½ sdt jintan, sangrai\n" +
+                "• ½ sdt garam\n" +
+                "• 1 buah lemon, ambil airnya\n" +
+                "• 2 siung bawang putih, cincang halus\n" +
+                "• 50 gram es serut"
+    )
+
     val foodieList: ArrayList<Foodie>
     get() {
         val data = arrayListOf<Foodie>()
@@ -78,6 +251,7 @@ object FoodieData {
             foodie.imageFoodie = foodieImages[position]
             foodie.nameFoodie = foodieNames[position]
             foodie.descriptionFoodie = foodieDescription[position]
+            foodie.ingredientsFoodie = foodieIngredients[position]
             data.add(foodie)
         }
         return data

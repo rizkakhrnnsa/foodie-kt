@@ -41,6 +41,7 @@ class DetailActivity : AppCompatActivity() {
         imgFoodie.loadImage(foodie.imageFoodie)
         tvFoodieName.text = foodie.nameFoodie
         tvFoodieDescription.text = foodie.descriptionFoodie
+        tvFoodieIngredientsDesc.text = foodie.ingredientsFoodie
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

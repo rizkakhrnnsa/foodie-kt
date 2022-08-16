@@ -52,8 +52,31 @@
             android:layout_marginHorizontal="16dp"
             android:textColor="@color/black"
             tools:text="@tools:sample/lorem/random"
-            app:layout_constraintTop_toBottomOf="@id/imgFoodie"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintTop_toBottomOf="@id/imgFoodie" />
+
+        <TextView
+            android:id="@+id/tvFoodieIngredients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/ingredients"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/tvFoodieDescription"
+            app:layout_constraintStart_toStartOf="@id/tvFoodieDescription"/>
+
+        <TextView
+            android:id="@+id/tvFoodieIngredientsDesc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:text="@string/ingredients"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/tvFoodieIngredients"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/tvFoodieDescription"
+            app:layout_constraintEnd_toEndOf="@id/tvFoodieDescription"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
