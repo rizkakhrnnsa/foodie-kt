@@ -17,7 +17,7 @@ object FoodieData {
     private val foodieImages = arrayOf(
         "https://cdn-2.tstatic.net/tribunnews/foto/bank/images/tips-pasti-jadi-bikin-rendang-pakai-rice-cooker.jpg",
         "https://www.thespruceeats.com/thmb/uAGhuNYfClAKVO7596dlxTG1uBQ=/2479x1859/smart/filters:no_upscale()/korean-sriracha-kimchi-recipe-2118867-hero-011-f6964d865b6246b180ddb843cdeb132d.jpg",
-        "https://cdn-cas.orami.co.id/parenting/images/resep-kebab.width-800.jpegquality-80.jpg",
+        "https://www.pegipegi.com/travel/wp-content/uploads/2018/02/16939691_1017047255095807_8340308885518579400_n-450x270.jpg",
         "https://selerasa.com/wp-content/uploads/2021/06/Resep-Croissant-1-1200x798.jpg",
         "https://hips.hearstapps.com/delish/assets/17/28/1499895297-jerk-chicken-delish.jpg",
         "https://thecozycook.com/wp-content/uploads/2022/04/Lasagna-Recipe-f.jpg",
