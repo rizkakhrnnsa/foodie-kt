@@ -33,6 +33,7 @@ class ProfileAdapter : ListAdapter<Profile, ProfileAdapter.ViewHolder>(profileDi
                 setImageResource(data.profileImgIcon)
                 setPadding(18)
             }
+            
             tvTitle.text = data.profileTitle
             tvText.text = data.profileText
 
