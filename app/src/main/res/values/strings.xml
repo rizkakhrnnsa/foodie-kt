@@ -3,4 +3,7 @@
     <string name="imgFoodie">Image Foodie</string>
     <string name="ingredients">Bahan-bahan:</string>
     <string name="search">Cari nama makanan…</string>
+    <string name="profile">Profil</string>
+    <string name="my_job">Android Developer</string>
+    <string name="my_name">Rizka Khairunnisa</string>
 </resources>
