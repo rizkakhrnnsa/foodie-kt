@@ -13,7 +13,7 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:contentDescription="@string/app_name"
-        android:padding="12dp"
+
         tools:src="@drawable/ic_outline_email"
         android:background="@drawable/bg_rounded_purple"
         app:layout_constraintTop_toTopOf="parent"

@@ -31,7 +31,7 @@ class ProfileAdapter : ListAdapter<Profile, ProfileAdapter.ViewHolder>(profileDi
             imgIcon.apply {
                 setBackgroundResource(R.drawable.bg_rounded_purple)
                 setImageResource(data.profileImgIcon)
-                setPadding(36)
+                setPadding(18)
             }
             tvTitle.text = data.profileTitle
             tvText.text = data.profileText
